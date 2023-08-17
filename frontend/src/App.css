@@ -1,0 +1,44 @@
+.carousel-item {
+  height: 700px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.hero-container {
+  position: relative;
+  height: 80vh; /* Adjust as necessary */
+}
+
+.hero-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 2.5em; /* Adjust as necessary */
+}
+
+.hero-content button {
+  padding: 10px 20px; /* Adjust as necessary */
+  font-size: 1.2em; /* Adjust as necessary */
+  background-color: #f88; /* Adjust as necessary */
+  border: none;
+  color: white;
+  cursor: pointer;
+}
